@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
+    "postinstall": "prisma genarete",
     "start": "node .",
     "dev": "nodemon ."
   },
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "dotenv": "^16.0.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "prisma": "^3.11.1"
   }
 }
