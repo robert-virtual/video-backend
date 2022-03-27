@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "postinstall": "prisma genarete",
+    "postinstall": "prisma generate",
     "start": "node .",
     "dev": "nodemon ."
   },
